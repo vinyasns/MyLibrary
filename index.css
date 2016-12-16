@@ -1,0 +1,51 @@
+table.table_login {
+    border-style: solid;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: dodgerblue;
+    border-style: outset;
+    border-radius: 5%;
+    font-size: 20;
+}
+h1 {
+    text-align: center;
+    background-color: cadetblue;
+    color: wheat;
+}
+div {
+    float: right;
+}
+th {
+    font-size: 22;
+}
+
+li.logout {
+    float: right;
+}
+/*Menu bar CSS*/
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+        
+}
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    li a:hover {
+        background-color: #111;
+    }
+body.profile a.profile, body.mybooks a.mybooks, body.getbooks a.getbooks, body.myaccount a.myaccount {
+    background-color: #111;
+}
